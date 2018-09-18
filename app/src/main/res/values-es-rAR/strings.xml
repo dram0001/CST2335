@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidLabs</string>
-    <string name="hello_message">Hola!</string>
+    <string name="hello_message">Hola todos!</string>
     <string name="ButtonText">Soy un botón!</string>
+    <string name="loginText">Entrar</string>
+    <string name="loginHint">usario</string>
+    <string name="password">password</string>
+    <string name="switchB">Que hace esto?</string>
+
+
 
 </resources>
