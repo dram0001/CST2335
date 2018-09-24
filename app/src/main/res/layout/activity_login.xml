@@ -14,6 +14,7 @@
         android:text="@string/loginText" />
 
     <EditText
+        android:id="@+id/email"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:hint="@string/loginHint"
@@ -26,11 +27,13 @@
         android:text="@string/password" />
 
     <EditText
+        android:id="@+id/passwordFill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"/>
 
     <ImageView
+        android:id="@+id/flag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/flag"/>

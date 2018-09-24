@@ -6,5 +6,7 @@
     <string name="loginHint">login name</string>
     <string name="password">password</string>
     <string name="switchB">What does this do?</string>
+    <string name="radio">Radio Button</string>
+    <string name="checkBox">Check Box</string>
 
 </resources>
