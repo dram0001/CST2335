@@ -9,5 +9,8 @@
     <string name="radio">Radio Button</string>
     <string name="checkBox">Check Box</string>
     <string name="loginButton">login</string>
+    <string name="startChat">Start Chat</string>
+    <string name="sendButton">Send</string>
+    <string name="newText">new text</string>
 
 </resources>

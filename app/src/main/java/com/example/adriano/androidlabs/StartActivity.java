@@ -11,6 +11,7 @@ public class StartActivity extends Activity {
 
     protected static final String ACTIVITY_NAME = "StartActivity";
     private Button button;
+    private Button startChat;
 
 
     @Override
@@ -20,11 +21,18 @@ public class StartActivity extends Activity {
         Log.i(ACTIVITY_NAME, "In OnCreate()");
 
         button = (Button) findViewById(R.id.button2);
+        startChat = (Button) findViewById(R.id.startChat);
         Intent i = new Intent(this, ListItemsActivity.class);
+        Intent chat = new Intent(this, ChatWindow.class);
+
         button.setOnClickListener(e->{
             startActivityForResult(i, 50);
             setResult(50, i);
         });
+
+        startChat.setOnClickListener(e->startActivity(chat));
+
+
     }
 
     @Override
@@ -40,6 +48,8 @@ public class StartActivity extends Activity {
             toast.show();
         }
     }
+
+
 
     @Override
     public void onStart(){

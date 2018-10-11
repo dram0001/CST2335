@@ -24,8 +24,8 @@ public class LoginActivity extends Activity {
 
         Log.i(ACTIVITY_NAME, "In OnCreate()");
 
-        loginButton = findViewById(R.id.loginButton);
-        loginName = findViewById(R.id.loginName);
+        loginButton = (Button) findViewById(R.id.loginButton);
+        loginName = (EditText) findViewById(R.id.loginName);
 
         prefs = getSharedPreferences("email", Context.MODE_PRIVATE);
         String userEmail = prefs.getString("UserEmail","login name");

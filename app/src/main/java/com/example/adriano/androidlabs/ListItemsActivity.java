@@ -27,9 +27,9 @@ public class ListItemsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_items);
-        imageButton = findViewById(R.id.imageButton);
-        checkBox = findViewById(R.id.checkBox);
-        switch1 = findViewById(R.id.switch1);
+        imageButton = (ImageButton) findViewById(R.id.imageButton);
+        checkBox = (CheckBox) findViewById(R.id.checkBox);
+        switch1 = (Switch) findViewById(R.id.switch1);
 
         imageButton.setOnClickListener(e->{
             Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
