@@ -5,11 +5,11 @@
     <string name="ButtonText">Soy un botón!</string>
     <string name="loginText">Entrar</string>
     <string name="loginHint">usario</string>
-    <string name="password">password</string>
+    <string name="password">contraseña</string>
     <string name="switchB">Que hace esto?</string>
     <string name="radio">Butón</string>
     <string name="checkBox">Check Box</string>
-    <string name="loginButton">Entrar</string>
+    <string name="loginButton">entrar</string>
     <string name="startChat">Comenzar Chat</string>
     <string name="sendButton">Enviar</string>
     <string name="newText">texto nuevo</string>
